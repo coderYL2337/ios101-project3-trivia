@@ -1,0 +1,59 @@
+[
+    {
+        "category": "General",
+        "questionText": "When does day light saving time ends in 2023?",
+        "answers": ["Nov 5, 2am", "Nov 4, 12am", "Nov 5,12am", "Nov 4, 2am"],
+        "correctAnswerIndex": 0
+    },
+
+    {
+        "category": "General",
+        "questionText":"What is 'cynophobia'?",
+        "answers": ["Fear of wolves", "Fear of bears","Fear of dogs","Fear of rats"],
+        "correctAnswerIndex": 2
+    },
+
+    {   
+        "category": "Animal",
+        "questionText":"How many hearts does an octopus have?",
+        "answers":["1","2","3","4"],
+        "correctAnswerIndex": 2
+    },
+
+    {   
+        "category": "Animal",
+        "questionText":"What is the loudest animal on Earth?",
+        "answers":["Elephant","Tiger","Lion","Sperm Whale"],
+        "correctAnswerIndex": 3
+    },
+
+    {   
+        "category": "Food and Drinks",
+        "questionText":"Which country invented ice cream?",
+        "answers":["France","Russia","China","Finland"],
+        "correctAnswerIndex": 2
+    },
+
+    {   
+        "category": "Food and Drinks",
+        "questionText":"Which country consumes the most chocolate per capita?",
+        "answers":["United States","France","Switzerland","Germany"],
+        "correctAnswerIndex": 2
+    }
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

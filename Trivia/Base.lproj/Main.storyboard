@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wEZ-Co-dyi">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trivia Questions View Controller-->
+        <scene sceneID="FVd-5u-QcT">
+            <objects>
+                <viewController id="wEZ-Co-dyi" customClass="TriviaQuestionsViewController" customModule="Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uEJ-iZ-P4g">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="56" translatesAutoresizingMaskIntoConstraints="NO" id="jML-NB-VM1">
+                                <rect key="frame" x="88.666666666666671" y="134" width="215.66666666666657" height="556"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question: 1/3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhA-t5-MhV">
+                                        <rect key="frame" x="57.999999999999986" y="0.0" width="100.00000000000001" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCN-V3-Yuc">
+                                        <rect key="frame" x="81.999999999999986" y="76.333333333333343" width="51.666666666666671" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="333" translatesAutoresizingMaskIntoConstraints="NO" id="w78-NM-azw">
+                                        <rect key="frame" x="0.0" y="152.66666666666669" width="215.66666666666666" height="42"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="How">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="many">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="hearts">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="does">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="an">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="octapus">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="have">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <font key="NSOriginalFont" size="18" name="MonotypeGurmukhi"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="?">
+                                                <attributes>
+                                                    <font key="NSFont" size="18" name="GurmukhiMN"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJV-Lt-dIE">
+                                        <rect key="frame" x="63.999999999999986" y="250.66666666666671" width="88.000000000000014" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Answer1"/>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="wEZ-Co-dyi" eventType="touchUpInside" id="Rim-2Z-wci"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZH-wQ-djM">
+                                        <rect key="frame" x="62.666666666666679" y="341" width="90.333333333333314" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Answer2"/>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="wEZ-Co-dyi" eventType="touchUpInside" id="xvS-wD-7XH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbD-yV-e03">
+                                        <rect key="frame" x="62.333333333333329" y="431.33333333333337" width="90.999999999999986" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Answer3"/>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="wEZ-Co-dyi" eventType="touchUpInside" id="uyK-Y0-oTK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIx-Yr-nyF">
+                                        <rect key="frame" x="62.666666666666664" y="521.66666666666663" width="90.666666666666686" height="34.333333333333371"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Answer4"/>
+                                        <connections>
+                                            <action selector="answerButtonTapped:" destination="wEZ-Co-dyi" eventType="touchUpInside" id="ZrY-jh-cIx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZJV-Lt-dIE" firstAttribute="top" secondItem="w78-NM-azw" secondAttribute="bottom" constant="60" id="1Ba-ge-hhA"/>
+                                    <constraint firstItem="3ZH-wQ-djM" firstAttribute="top" secondItem="ZJV-Lt-dIE" secondAttribute="bottom" constant="35" id="D4S-7t-eDG"/>
+                                    <constraint firstItem="RbD-yV-e03" firstAttribute="top" secondItem="3ZH-wQ-djM" secondAttribute="bottom" constant="35" id="ERJ-Rm-ZJA"/>
+                                    <constraint firstItem="NIx-Yr-nyF" firstAttribute="centerX" secondItem="jML-NB-VM1" secondAttribute="centerX" id="L3j-ga-I7c"/>
+                                    <constraint firstItem="RbD-yV-e03" firstAttribute="centerX" secondItem="jML-NB-VM1" secondAttribute="centerX" id="Mvs-SL-htB"/>
+                                    <constraint firstItem="aCN-V3-Yuc" firstAttribute="top" secondItem="ZhA-t5-MhV" secondAttribute="bottom" constant="20" id="ST0-ra-Ly4"/>
+                                    <constraint firstItem="3ZH-wQ-djM" firstAttribute="centerX" secondItem="jML-NB-VM1" secondAttribute="centerX" id="WrL-9z-MzK"/>
+                                    <constraint firstItem="ZJV-Lt-dIE" firstAttribute="centerX" secondItem="jML-NB-VM1" secondAttribute="centerX" id="fA6-ZQ-a88"/>
+                                    <constraint firstItem="NIx-Yr-nyF" firstAttribute="top" secondItem="RbD-yV-e03" secondAttribute="bottom" constant="35" id="gH3-Xb-TW1"/>
+                                    <constraint firstItem="w78-NM-azw" firstAttribute="top" secondItem="aCN-V3-Yuc" secondAttribute="bottom" constant="60" id="yfA-Yz-EvQ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XDd-xR-elW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jML-NB-VM1" firstAttribute="centerX" secondItem="uEJ-iZ-P4g" secondAttribute="centerX" id="WYR-GS-dEu"/>
+                            <constraint firstItem="jML-NB-VM1" firstAttribute="top" secondItem="XDd-xR-elW" secondAttribute="top" constant="75" id="fbU-6N-RQj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Answer1Button" destination="ZJV-Lt-dIE" id="DSA-AA-yz7"/>
+                        <outlet property="Answer2Button" destination="3ZH-wQ-djM" id="cuQ-N4-z7z"/>
+                        <outlet property="Answer3Button" destination="RbD-yV-e03" id="QcD-ae-UdI"/>
+                        <outlet property="Answer4Button" destination="NIx-Yr-nyF" id="GZD-Cs-LbN"/>
+                        <outlet property="QuestionAnswered" destination="ZhA-t5-MhV" id="CYh-Ad-sOY"/>
+                        <outlet property="QuestionCategory" destination="aCN-V3-Yuc" id="usN-0q-l1d"/>
+                        <outlet property="QuestionLabel" destination="w78-NM-azw" id="4Hb-eu-LJ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6vs-ib-Lxf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327.48091603053433" y="-65.492957746478879"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
